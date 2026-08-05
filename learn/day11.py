@@ -4,3 +4,8 @@ print(scores[0])
 print(scores[-1])
 print(len(scores))
 print(scores[1])
+#两个列表如何对应
+papers = ["AI论文A","AI论文B","AI论文C"]
+status = ["通过","修改","拒绝"]
+for paper in papers:
+    print(paper[0],status[0])
