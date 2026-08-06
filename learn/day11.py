@@ -9,3 +9,10 @@ papers = ["AI论文A","AI论文B","AI论文C"]
 status = ["通过","修改","拒绝"]
 for paper in papers:
     print(paper[0],status[0])
+
+#列表的增删
+papers = ["论文A","论文B","论文C"]
+papers.append("论文D")
+papers.remove("论文B")
+papers.pop(2)
+print(papers)
